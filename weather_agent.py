@@ -7,7 +7,8 @@ import openpyxl
 from openpyxl.styles import Font
 
 CITIES = {
-    "Hadera": {"lat": 32.4342, "lon": 34.9196},
+    "Hadera":   {"lat": 32.4342, "lon": 34.9196},
+    "Tel Aviv": {"lat": 32.0853, "lon": 34.7818},
 }
 
 EXCEL_FILE = "weather_data.xlsx"
