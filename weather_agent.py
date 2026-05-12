@@ -11,7 +11,7 @@ CITIES = {
     "Tel Aviv": {"lat": 32.0853, "lon": 34.7818},
 }
 
-EXCEL_FILE = "weather_data.xlsx"
+EXCEL_FILE = Path(r"C:\Users\maxbi\Documents\Weather tool\weather_data.xlsx")
 INTERVAL_MINUTES = 5
 DURATION_HOURS = 24
 
